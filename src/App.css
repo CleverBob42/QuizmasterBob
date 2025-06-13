@@ -1,0 +1,21 @@
+.answer-option {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 2px solid #ccc;
+  border-radius: 1.5em;
+  background: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: left;
+  transition: background 0.15s, color 0.15s, border 0.15s, transform 0.08s;
+  cursor: pointer;
+  box-shadow: 0 2px 4px #0001;
+}
+.answer-option.selected {
+  background: #2563eb;
+  color: #fff;
+  border-color: #1d4ed8;
+  transform: scale(0.98);
+}
